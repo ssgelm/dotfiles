@@ -1,0 +1,47 @@
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: true
+URxvt*font: xft:Source Code Pro:pixelsize=12:antialias=true:hinting=true
+URxvt*boldFont: xft:Source Code Pro:bold:pixelsize=12:antialias=true:hinting=true
+! URxvt.letterSpace: -1
+
+! SG IR_Black
+#define C_Black      #3d3d3d
+#define C_Red        #fb534d
+#define C_Green      #9bff4e
+#define C_Yellow     #ffffa7
+#define C_Blue       #85befd
+#define C_Magenta    #fb51fc
+#define C_Cyan       #b9b5fd
+#define C_White      #e9e9e9
+#define C_BBlack     #686868
+#define C_BRed       #fda5a0
+#define C_BGreen     #c4ff9c
+#define C_BYellow    #ffffbf
+#define C_BBlue      #a7d3fd
+#define C_BMagenta   #fc81fd
+#define C_BCyan      #d7d5fd
+#define C_BWhite     #fffefe
+#define C_Cursor     #d98e53
+#define C_Background #000000
+#define C_Foreground #e9e9e9
+
+URxvt*color0:   C_Black
+URxvt*color1:   C_Red
+URxvt*color2:   C_Green
+URxvt*color3:   C_Yellow
+URxvt*color4:   C_Blue
+URxvt*color5:   C_Magenta
+URxvt*color6:   C_Cyan
+URxvt*color7:   C_White
+URxvt*color8:   C_BBlack
+URxvt*color9:   C_BRed
+URxvt*color10:  C_BGreen
+URxvt*color11:  C_BYellow
+URxvt*color12:  C_BBlue
+URxvt*color13:  C_BMagenta
+URxvt*color14:  C_BCyan
+URxvt*color15:  C_BWhite
+URxvt*foreground: C_Foreground
+URxvt*background: C_Background
+URxvt*cursorColor: C_Cursor
+
