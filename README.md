@@ -18,7 +18,7 @@ emacs{,.d}
 
 Emacs configs
 
-irbic
+irbrc
 -----
 
 Some configs to make irb more usable
