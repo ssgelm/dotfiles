@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-A few of my dotfiles.
+A few of my dotfiles.  Vim dotfiles can be found in https://github.com/ssgelm/vim_dotfiles
 
 Xresources
 ----------
