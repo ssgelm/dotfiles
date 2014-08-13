@@ -1,8 +1,10 @@
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
-URxvt*font: xft:Source Code Pro:pixelsize=12:antialias=true:hinting=true
-URxvt*boldFont: xft:Source Code Pro:bold:pixelsize=12:antialias=true:hinting=true
-! URxvt.letterSpace: -1
+URxvt*font: xft:Sauce Code Powerline:size=11:antialias=true:hinting=true, \
+  xft:DejaVu Sans Mono:antialias=true:autohint=true:size=11
+URxvt*boldFont: xft:Source Code Pro for Powerline:bold:size=11:antialias=true:hinting=true, \
+  xft:DejaVu Sans Mono:antialias=true:autohint=true:size=11
+URxvt.letterSpace: -1
 
 ! SG IR_Black
 #define C_Black      #3d3d3d
