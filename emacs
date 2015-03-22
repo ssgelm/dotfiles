@@ -37,6 +37,7 @@
                       clojure-test-mode
                       coffee-mode
                       deft
+                      evil
                       gist
                       go-mode
                       haml-mode
