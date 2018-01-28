@@ -1,10 +1,31 @@
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
-URxvt*font: xft:Sauce Code Powerline:size=11:antialias=true:hinting=true, \
-  xft:DejaVu Sans Mono:antialias=true:autohint=true:size=11
-URxvt*boldFont: xft:Source Code Pro for Powerline:bold:size=11:antialias=true:hinting=true, \
-  xft:DejaVu Sans Mono:antialias=true:autohint=true:size=11
+URxvt*font: xft:Sauce Code Powerline:size=12:antialias=true:hinting=true, \
+  xft:DejaVu Sans Mono:antialias=true:autohint=true:size=12
+URxvt*boldFont: xft:Source Code Pro for Powerline:bold:size=12:antialias=true:hinting=true, \
+  xft:DejaVu Sans Mono:antialias=true:autohint=true:size=12
 URxvt.letterSpace: -1
+URxvt.perl-ext-common: default,matcher,tabbedex,vtwheel
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.colorUL: #85befd
+URxvt.tabbed.autohide: true
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Control-bracketright: perl:tabbedex:next_tab
+URxvt.keysym.Control-bracketleft: perl:tabbedex:prev_tab
+
+
+URxvt.depth: 32
+URxvt.background: rgba:2222/2222/2222/dddd
+
+! Xft.dpi: 72
+! Xft.dpi: 96
+Xft.dpi: 110
+! Xft.dpi: 175
+
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintmedium
 
 ! SG IR_Black
 #define C_Black      #3d3d3d
