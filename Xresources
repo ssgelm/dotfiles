@@ -1,8 +1,8 @@
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
-URxvt*font: xft:Sauce Code Powerline:size=12:antialias=true:hinting=true, \
+URxvt*font: xft:Source Code Pro:size=12:antialias=true:hinting=true, \
   xft:DejaVu Sans Mono:antialias=true:autohint=true:size=12
-URxvt*boldFont: xft:Source Code Pro for Powerline:bold:size=12:antialias=true:hinting=true, \
+URxvt*boldFont: xft:Source Code Pro:bold:size=12:antialias=true:hinting=true, \
   xft:DejaVu Sans Mono:antialias=true:autohint=true:size=12
 URxvt.letterSpace: -1
 URxvt.perl-ext-common: default,matcher,tabbedex,vtwheel
