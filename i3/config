@@ -11,12 +11,12 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # font xft:Sauce Code Powerline:style=Bold:size=12:antialias=true:hinting=true
-font pango:Sauce Code Powerline 12
+font pango:Source Code Pro 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -39,12 +39,12 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_run
 # bindsym $mod+p exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+p exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Sauce Code Powerline-12:bold' -p 'Launch: '"
+bindsym $mod+p exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Source Code Pro-12:bold' -p 'Launch: '"
 
 # change focus
 bindsym $mod+j focus left
@@ -170,18 +170,22 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+        font pango:Source Code Pro 12
+        #status_command i3status
+        status_command exec ~/sg/barista/sgbar
 }
 
-bindsym $mod+shift+x exec i3lock -i ~/.xmonad/arch.png
+bindsym $mod+shift+x exec i3lock -i ~/.config/i3/debian.png
 
 # Set wallpaper
 exec --no-startup-id feh --bg-scale ~/Dropbox/Apps/Desktoppr/05-13-0436.jpg
 exec --no-startup-id xset r rate 400 40
 exec --no-startup-id "killall xcompmgr; exec xcompmgr -Ffn -D 1"
-exec --no-startup-id synclient RightButtonAreaTop=0 RightButtonAreaLeft=0
+exec --no-startup-id xinput set-prop 13 307 {0,1}
 exec --no-startup-id libinput-gestures-setup start
 exec --no-startup-id xcape -e Control_L=Escape
 
-bindsym XF86MonBrightnessUp exec xbacklight +10
-bindsym XF86MonBrightnessDown exec xbacklight -10
+bindsym XF86MonBrightnessUp exec brightnessctl s +10
+bindsym XF86MonBrightnessDown exec brightnessctl s 10-
+
+for_window [title="1Password"] floating enable
