@@ -1,0 +1,31 @@
+window-theme = "dark"
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+cursor-style = block
+cursor-style-blink = false
+
+font-family = "Source Code Pro"
+font-thicken = true
+
+# SG IR_Black
+palette = 0=#3d3d3d
+palette = 1=#fb534d
+palette = 2=#9bff4e
+palette = 3=#ffffa7
+palette = 4=#85befd
+palette = 5=#fb51fc
+palette = 6=#b9b5fd
+palette = 7=#e9e9e9
+palette = 8=#686868
+palette = 9=#fda5a0
+palette = 10=#c4ff9c
+palette = 11=#ffffbf
+palette = 12=#a7d3fd
+palette = 13=#fc81fd
+palette = 14=#d7d5fd
+palette = 15=#fffefe
+background = 000000
+foreground = e9e9e9
+cursor-color = d98e53
+selection-background = 5e64bb
+selection-foreground = feffff
