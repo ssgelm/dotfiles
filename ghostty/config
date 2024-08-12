@@ -1,11 +1,17 @@
 window-theme = "dark"
+macos-titlebar-style = tabs
 macos-option-as-alt = true
 mouse-hide-while-typing = true
 cursor-style = block
 cursor-style-blink = false
+shell-integration-features = no-cursor
+term = xterm-256color
 
-font-family = "Source Code Pro"
+font-family = "SauceCodePro Nerd Font"
 font-thicken = true
+font-size = 11
+adjust-cell-height = 16%
+window-padding-x = 5
 
 # SG IR_Black
 palette = 0=#3d3d3d
