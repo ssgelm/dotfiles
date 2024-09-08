@@ -1,0 +1,64 @@
+selection:
+  # This string contains all characters that are used as separators for
+  # "semantic words" in Alacritty.
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
+
+mouse:
+  hints:
+    # launcher:
+    #   # This depends on your OS, on Mac it’s `open`
+    #   program: xdg-open
+    mods: Control
+
+font:
+  normal:
+    family: Source Code Pro
+    style: Regular
+  bold:
+    family: Source Code Pro
+    style: Bold
+  italic:
+    family: Source Code Pro
+    style: Italic
+  bold_italic:
+    family: Source Code Pro
+    style: Bold Italic
+  size: 12.0
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+# Base16 Default Dark 256 - alacritty color config
+# Chris Kempson (http://chriskempson.com)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xe9e9e9'
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x3d3d3d'
+    cursor: '0xd98e53'
+  # Normal colors
+  normal:
+    black: '0x3d3d3d'
+    red: '0xfb534d'
+    green: '0x9bff4e'
+    yellow: '0xffffa7'
+    blue: '0x85befd'
+    magenta: '0xfb51fc'
+    cyan: '0xb9b5fd'
+    white: '0xe9e9e9'
+  # Bright colors
+  bright:
+    black: '0x686868'
+    red: '0xfda5a0'
+    green: '0xc4ff9c'
+    yellow: '0xffffbf'
+    blue: '0xa7d3fd'
+    magenta: '0xfc81fd'
+    cyan: '0xd7d5fd'
+    white: '0xfffefe'
+
+window:
+  opacity: 0.8

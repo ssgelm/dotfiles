@@ -44,7 +44,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+p exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Source Code Pro-12:bold' -p 'Launch: '"
+bindsym $mod+p exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -fn 'Source Code Pro-12:bold' -p 'Launch: '"
 
 # change focus
 bindsym $mod+j focus left
@@ -190,6 +190,8 @@ exec --no-startup-id dex -a
 bindsym XF86MonBrightnessUp exec brightnessctl s +10
 bindsym XF86MonBrightnessDown exec brightnessctl s 10-
 
+bindsym Ctrl+Shift+space exec 1password --quick-access
+
 input "type:keyboard" {
     xkb_options ctrl:nocaps
 }
@@ -198,4 +200,9 @@ input "2:14:ETPS/2_Elantech_Touchpad" {
   click_method clickfinger
   middle_emulation enabled
   tap disabled
+  scroll_factor 0.25
+}
+
+output "eDP-1" {
+  scale 1.25
 }

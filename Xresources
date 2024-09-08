@@ -19,8 +19,8 @@ URxvt.depth: 32
 URxvt.background: rgba:2222/2222/2222/dddd
 
 ! Xft.dpi: 72
-! Xft.dpi: 96
-Xft.dpi: 110
+Xft.dpi: 96
+! Xft.dpi: 110
 ! Xft.dpi: 175
 
 Xft.antialias: 1
