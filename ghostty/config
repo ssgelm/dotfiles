@@ -7,6 +7,9 @@ cursor-style-blink = false
 shell-integration-features = no-cursor
 term = xterm-256color
 
+# quick terminal
+keybind = global:cmd+opt+grave_accent=toggle_quick_terminal
+
 font-family = "SauceCodePro Nerd Font"
 font-thicken = true
 font-size = 11
